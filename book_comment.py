@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from zhanlang2.wd_show import wd_show
+from wd_show import wd_show
 
 def get_soup(url):
     headers = {
